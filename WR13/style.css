@@ -1,0 +1,187 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.maindiv{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: space-around;
+}
+.startdiv{
+    width: 990px;
+    height: auto;
+    background-color: black;
+    display: grid;
+    justify-content: right;
+    position: relative;
+}
+.imghero{
+  width: 100%;
+  height: auto;
+}
+.modernh1{
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 189px;
+    left: 165px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    font-size: 96px;
+    text-transform: uppercase;
+    mix-blend-mode: difference;
+}
+.startp{
+    position: absolute;
+    top: 190px;
+    left: 925px;
+    width: 350px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    color: rgba(68, 68, 68, 1);
+}
+.linkdivmap{
+    position: absolute;
+    top: 414px;
+    left: 925px;
+    width: 260px;
+    height: 72px;
+    display: grid;
+    grid-auto-flow: column;   
+    cursor: pointer;
+}
+.linkp{
+    background-color: rgba(21, 21, 21, 1);
+    width: 204px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 3.64px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.linkmap{
+    background-color: rgba(213, 150, 108, 1);
+    width: 56px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s ease;
+}
+.linkmap:hover{
+    background-color: rgb(233, 99, 10);
+}
+.imgarrowright{
+    width: 8px;
+    height: 24px;
+}
+.centerdiv{
+    display: grid;
+    width: 1110px;
+    margin-top: 180px;
+    gap: 30px;
+    position: relative;
+    justify-self: center;
+} 
+.centertextdiv-1{
+    width: 350px;
+    display: grid;
+    align-content: space-around;
+    gap: 32px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.centerh2-1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: rgba(21, 21, 21, 1);  
+}
+.centerp-1{
+    font-weight: 300;
+    font-size: 22px;
+    color: rgba(68, 68, 68, 1);
+}
+.centerimg1{
+    width: 58%;
+    height: auto;
+    display: grid;
+    justify-self: end;
+}
+.centerimg2{
+    width: 58%;
+    height: auto;
+    display: grid;
+    justify-self: start;
+}
+.centerimg3{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 437px;
+    left: 665px;
+    z-index: 1;
+}
+.centertextdiv-2{
+    width: 445px;
+    height: 377px;
+    background-color: black;
+    display: grid;
+    position: absolute;
+    top: 773px;
+    left: 664px;
+    justify-content: center;
+    align-items: center;
+}
+.centerh2-2{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);
+}
+.centerp-2{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+}
+.enddiv{
+    width: 100%;
+    height: 244px;
+    background-color: black;
+    margin-top: 180px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-modernart{
+    width: 160px;
+    height: 58px;
+}
+.endp-3{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+.socialiconsdiv{
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    fill: white;
+   cursor: pointer;
+}
+.icons:hover{
+    fill: rgba(213, 150, 108, 1);
+}
